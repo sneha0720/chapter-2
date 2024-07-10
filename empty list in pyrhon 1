@@ -1,0 +1,11 @@
+def main():
+    empty_list = []
+    print("Empty list:", empty_list)
+    single_element_list = [42]
+    print("List with one element:", single_element_list)
+    identical_elements_list = [7, 7, 7, 7]
+    print("List with all identical elements:", identical_elements_list)
+    negative_numbers_list = [-3, -7, -2, -10]
+    print("List with negative numbers:", negative_numbers_list)
+if _name_ == "_main_":
+    main()
